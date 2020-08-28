@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "8EXAc4XpuNlc2SIuMptaUO69DxBnqChHpQ/GoS8bZfKO9NBxSPFmIoO2sIel3qYvCFdLz3+E0wr/GQsfhmkX/g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Tashreef\\Documents\\GitHub\\Drowsiness_Detector\\DrowsyDoc.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tashreef\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\Tashreef\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\Tashreef\\.nuget\\packages\\opencvsharp4\\4.4.0.20200725\\opencvsharp4.4.4.0.20200725.nupkg.sha512",
+    "C:\\Users\\Tashreef\\.nuget\\packages\\opencvsharp4.runtime.win\\4.4.0.20200725\\opencvsharp4.runtime.win.4.4.0.20200725.nupkg.sha512",
+    "C:\\Users\\Tashreef\\.nuget\\packages\\opencvsharp4.windows\\4.4.0.20200725\\opencvsharp4.windows.4.4.0.20200725.nupkg.sha512",
+    "C:\\Users\\Tashreef\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
+    "C:\\Users\\Tashreef\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

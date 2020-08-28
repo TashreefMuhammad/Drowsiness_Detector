@@ -1,0 +1,58 @@
+D:\Sem_6_Fa_2019_(3.2)\CSE 3200\DrowsyDoc\DrowsyDoc\bin\Debug\netcoreapp3.1\DrowsyDoc.exe
+D:\Sem_6_Fa_2019_(3.2)\CSE 3200\DrowsyDoc\DrowsyDoc\bin\Debug\netcoreapp3.1\DrowsyDoc.deps.json
+D:\Sem_6_Fa_2019_(3.2)\CSE 3200\DrowsyDoc\DrowsyDoc\bin\Debug\netcoreapp3.1\DrowsyDoc.runtimeconfig.json
+D:\Sem_6_Fa_2019_(3.2)\CSE 3200\DrowsyDoc\DrowsyDoc\bin\Debug\netcoreapp3.1\DrowsyDoc.runtimeconfig.dev.json
+D:\Sem_6_Fa_2019_(3.2)\CSE 3200\DrowsyDoc\DrowsyDoc\bin\Debug\netcoreapp3.1\DrowsyDoc.dll
+D:\Sem_6_Fa_2019_(3.2)\CSE 3200\DrowsyDoc\DrowsyDoc\bin\Debug\netcoreapp3.1\DrowsyDoc.pdb
+D:\Sem_6_Fa_2019_(3.2)\CSE 3200\DrowsyDoc\DrowsyDoc\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+D:\Sem_6_Fa_2019_(3.2)\CSE 3200\DrowsyDoc\DrowsyDoc\bin\Debug\netcoreapp3.1\OpenCvSharp.Blob.dll
+D:\Sem_6_Fa_2019_(3.2)\CSE 3200\DrowsyDoc\DrowsyDoc\bin\Debug\netcoreapp3.1\OpenCvSharp.Extensions.dll
+D:\Sem_6_Fa_2019_(3.2)\CSE 3200\DrowsyDoc\DrowsyDoc\bin\Debug\netcoreapp3.1\OpenCvSharp.dll
+D:\Sem_6_Fa_2019_(3.2)\CSE 3200\DrowsyDoc\DrowsyDoc\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+D:\Sem_6_Fa_2019_(3.2)\CSE 3200\DrowsyDoc\DrowsyDoc\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+D:\Sem_6_Fa_2019_(3.2)\CSE 3200\DrowsyDoc\DrowsyDoc\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Sem_6_Fa_2019_(3.2)\CSE 3200\DrowsyDoc\DrowsyDoc\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Sem_6_Fa_2019_(3.2)\CSE 3200\DrowsyDoc\DrowsyDoc\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Sem_6_Fa_2019_(3.2)\CSE 3200\DrowsyDoc\DrowsyDoc\obj\Debug\netcoreapp3.1\DrowsyDoc.AssemblyInfoInputs.cache
+D:\Sem_6_Fa_2019_(3.2)\CSE 3200\DrowsyDoc\DrowsyDoc\obj\Debug\netcoreapp3.1\DrowsyDoc.AssemblyInfo.cs
+D:\Sem_6_Fa_2019_(3.2)\CSE 3200\DrowsyDoc\DrowsyDoc\obj\Debug\netcoreapp3.1\DrowsyDoc.csproj.CopyComplete
+D:\Sem_6_Fa_2019_(3.2)\CSE 3200\DrowsyDoc\DrowsyDoc\obj\Debug\netcoreapp3.1\DrowsyDoc.dll
+D:\Sem_6_Fa_2019_(3.2)\CSE 3200\DrowsyDoc\DrowsyDoc\obj\Debug\netcoreapp3.1\DrowsyDoc.pdb
+D:\Sem_6_Fa_2019_(3.2)\CSE 3200\DrowsyDoc\DrowsyDoc\obj\Debug\netcoreapp3.1\DrowsyDoc.genruntimeconfig.cache
+D:\Sem_6_Fa_2019_(3.2)\CSE 3200\DrowsyDoc\DrowsyDoc\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\OpenCvSharpExtern.dll
+D:\Sem_6_Fa_2019_(3.2)\CSE 3200\DrowsyDoc\DrowsyDoc\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\OpenCvSharpExtern.pdb
+D:\Sem_6_Fa_2019_(3.2)\CSE 3200\DrowsyDoc\DrowsyDoc\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\opencv_videoio_ffmpeg440_64.dll
+D:\Sem_6_Fa_2019_(3.2)\CSE 3200\DrowsyDoc\DrowsyDoc\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\OpenCvSharpExtern.dll
+D:\Sem_6_Fa_2019_(3.2)\CSE 3200\DrowsyDoc\DrowsyDoc\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\OpenCvSharpExtern.pdb
+D:\Sem_6_Fa_2019_(3.2)\CSE 3200\DrowsyDoc\DrowsyDoc\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\opencv_videoio_ffmpeg440.dll
+D:\Sem_6_Fa_2019_(3.2)\CSE 3200\DrowsyDoc\DrowsyDoc\obj\Debug\netcoreapp3.1\DrowsyDoc.csproj.CoreCompileInputs.cache
+D:\Sem_6_Fa_2019_(3.2)\CSE 3200\DrowsyDoc\DrowsyDoc\obj\Debug\netcoreapp3.1\DrowsyDoc.csprojAssemblyReference.cache
+C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\bin\Debug\netcoreapp3.1\DrowsyDoc.exe
+C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\bin\Debug\netcoreapp3.1\DrowsyDoc.deps.json
+C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\bin\Debug\netcoreapp3.1\DrowsyDoc.runtimeconfig.json
+C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\bin\Debug\netcoreapp3.1\DrowsyDoc.runtimeconfig.dev.json
+C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\bin\Debug\netcoreapp3.1\DrowsyDoc.dll
+C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\bin\Debug\netcoreapp3.1\DrowsyDoc.pdb
+C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\bin\Debug\netcoreapp3.1\OpenCvSharp.Blob.dll
+C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\bin\Debug\netcoreapp3.1\OpenCvSharp.Extensions.dll
+C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\bin\Debug\netcoreapp3.1\OpenCvSharp.dll
+C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\OpenCvSharpExtern.dll
+C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\OpenCvSharpExtern.pdb
+C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\opencv_videoio_ffmpeg440_64.dll
+C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\OpenCvSharpExtern.dll
+C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\OpenCvSharpExtern.pdb
+C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\opencv_videoio_ffmpeg440.dll
+C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\obj\Debug\netcoreapp3.1\DrowsyDoc.csprojAssemblyReference.cache
+C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\obj\Debug\netcoreapp3.1\DrowsyDoc.AssemblyInfoInputs.cache
+C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\obj\Debug\netcoreapp3.1\DrowsyDoc.AssemblyInfo.cs
+C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\obj\Debug\netcoreapp3.1\DrowsyDoc.csproj.CoreCompileInputs.cache
+C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\obj\Debug\netcoreapp3.1\DrowsyDoc.csproj.CopyComplete
+C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\obj\Debug\netcoreapp3.1\DrowsyDoc.dll
+C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\obj\Debug\netcoreapp3.1\DrowsyDoc.pdb
+C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\obj\Debug\netcoreapp3.1\DrowsyDoc.genruntimeconfig.cache

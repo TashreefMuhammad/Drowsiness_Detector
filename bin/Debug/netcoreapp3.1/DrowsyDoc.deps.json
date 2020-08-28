@@ -1,0 +1,189 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DrowsyDoc/1.0.0": {
+        "dependencies": {
+          "OpenCvSharp4.Windows": "4.4.0.20200725"
+        },
+        "runtime": {
+          "DrowsyDoc.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.1.0": {},
+      "Microsoft.Win32.SystemEvents/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "OpenCvSharp4/4.4.0.20200725": {
+        "dependencies": {
+          "System.Drawing.Common": "4.7.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.7.1"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/OpenCvSharp.Blob.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netcoreapp2.1/OpenCvSharp.Extensions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netcoreapp2.1/OpenCvSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "OpenCvSharp4.runtime.win/4.4.0.20200725": {
+        "runtimeTargets": {
+          "runtimes/win-x64/native/OpenCvSharpExtern.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/OpenCvSharpExtern.pdb": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/opencv_videoio_ffmpeg440_64.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "2020.6.0.0"
+          },
+          "runtimes/win-x86/native/OpenCvSharpExtern.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/OpenCvSharpExtern.pdb": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/opencv_videoio_ffmpeg440.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "2020.6.0.0"
+          }
+        }
+      },
+      "OpenCvSharp4.Windows/4.4.0.20200725": {
+        "dependencies": {
+          "OpenCvSharp4": "4.4.0.20200725",
+          "OpenCvSharp4.runtime.win": "4.4.0.20200725"
+        }
+      },
+      "System.Drawing.Common/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "Microsoft.Win32.SystemEvents": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "4.0.0.1",
+            "fileVersion": "4.6.26919.2"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.7.1": {
+        "runtime": {
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "4.0.6.0",
+            "fileVersion": "4.700.20.12001"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DrowsyDoc/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "hashPath": "microsoft.netcore.platforms.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
+      "path": "microsoft.win32.systemevents/4.7.0",
+      "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
+    },
+    "OpenCvSharp4/4.4.0.20200725": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/FQX9t4izMBs6kFzQmtkeaQZPh20zwADrwGBgIaAVnejh83qoOvH7KHb8FxcKLE52ezbMJUi/6Ckc+NNOjGwyw==",
+      "path": "opencvsharp4/4.4.0.20200725",
+      "hashPath": "opencvsharp4.4.4.0.20200725.nupkg.sha512"
+    },
+    "OpenCvSharp4.runtime.win/4.4.0.20200725": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WgyTG/Tq3/Msy/o0XcS4NDnmbDD8iuh2MbptdIpH/JdAiOq4H3nUzmJ8ea+3qoBv1SsCCko93zmh01XE47m1NQ==",
+      "path": "opencvsharp4.runtime.win/4.4.0.20200725",
+      "hashPath": "opencvsharp4.runtime.win.4.4.0.20200725.nupkg.sha512"
+    },
+    "OpenCvSharp4.Windows/4.4.0.20200725": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xpclWSzydJ8WLlsUMJE8vwNi9YjiNnCyDCeCYkaoGMcHAypbj1QFTprEFSYsBCq6yVI2Okj0+q1WzPnr/vx4rg==",
+      "path": "opencvsharp4.windows/4.4.0.20200725",
+      "hashPath": "opencvsharp4.windows.4.4.0.20200725.nupkg.sha512"
+    },
+    "System.Drawing.Common/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v+XbyYHaZjDfn0ENmJEV1VYLgGgCTx1gnfOBcppowbpOAriglYgGCvFCPr2EEZyBvXlpxbEsTwkOlInl107ahA==",
+      "path": "system.drawing.common/4.7.0",
+      "hashPath": "system.drawing.common.4.7.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zOHkQmzPCn5zm/BH+cxC1XbUS3P4Yoi3xzW7eRgVpDR2tPGSzyMZ17Ig1iRkfJuY0nhxkQQde8pgePNiA7z7TQ==",
+      "path": "system.runtime.compilerservices.unsafe/4.7.1",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512"
+    }
+  }
+}
