@@ -8,10 +8,96 @@
     ".NETCoreApp,Version=v3.1": {
       "DrowsyDoc/1.0.0": {
         "dependencies": {
+          "DlibDotNet": "19.20.0.20200725",
           "OpenCvSharp4.Windows": "4.4.0.20200725"
         },
         "runtime": {
           "DrowsyDoc.dll": {}
+        }
+      },
+      "DlibDotNet/19.20.0.20200725": {
+        "runtime": {
+          "lib/netstandard2.0/DlibDotNet.dll": {
+            "assemblyVersion": "19.20.0.0",
+            "fileVersion": "19.20.0.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/centos-x64/native/.keepfolder": {
+            "rid": "centos-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/centos-x64/native/libDlibDotNetNative.so": {
+            "rid": "centos-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/centos-x64/native/libDlibDotNetNativeDnn.so": {
+            "rid": "centos-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/.keepfolder": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libDlibDotNetNative.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libDlibDotNetNativeDnn.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/.keepfolder": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libDlibDotNetNative.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libDlibDotNetNativeDnn.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/.keepfolder": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/DlibDotNetNative.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "19.20.0.0"
+          },
+          "runtimes/win-x64/native/DlibDotNetNativeDnn.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "19.20.0.0"
+          },
+          "runtimes/win-x86/native/.keepfolder": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/DlibDotNetNative.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "19.20.0.0"
+          },
+          "runtimes/win-x86/native/DlibDotNetNativeDnn.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "19.20.0.0"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/3.1.0": {},
@@ -135,6 +221,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "DlibDotNet/19.20.0.20200725": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JPlrvh9vofcI+N0C5XT+fI4u37EuykY3iKApgbPbjQOrnC8e1E8Anuigl4PWMFRmR6pikteTGzw2yVSuyuA2aw==",
+      "path": "dlibdotnet/19.20.0.20200725",
+      "hashPath": "dlibdotnet.19.20.0.20200725.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/3.1.0": {
       "type": "package",

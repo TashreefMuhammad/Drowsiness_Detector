@@ -38,6 +38,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "DlibDotNet": {
+              "target": "Package",
+              "version": "[19.20.0.20200725, )"
+            },
             "OpenCvSharp4.Windows": {
               "target": "Package",
               "version": "[4.4.0.20200725, )"

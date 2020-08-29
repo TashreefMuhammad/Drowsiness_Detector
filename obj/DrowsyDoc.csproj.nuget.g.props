@@ -17,5 +17,6 @@
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)opencvsharp4.runtime.win\4.4.0.20200725\build\netcoreapp\OpenCvSharp4.runtime.win.props" Condition="Exists('$(NuGetPackageRoot)opencvsharp4.runtime.win\4.4.0.20200725\build\netcoreapp\OpenCvSharp4.runtime.win.props')" />
+    <Import Project="$(NuGetPackageRoot)dlibdotnet\19.20.0.20200725\build\DlibDotNet.props" Condition="Exists('$(NuGetPackageRoot)dlibdotnet\19.20.0.20200725\build\DlibDotNet.props')" />
   </ImportGroup>
 </Project>

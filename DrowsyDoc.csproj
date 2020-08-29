@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="DlibDotNet" Version="19.20.0.20200725" />
     <PackageReference Include="OpenCvSharp4.Windows" Version="4.4.0.20200725" />
   </ItemGroup>
 

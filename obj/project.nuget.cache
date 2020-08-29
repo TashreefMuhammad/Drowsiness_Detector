@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8EXAc4XpuNlc2SIuMptaUO69DxBnqChHpQ/GoS8bZfKO9NBxSPFmIoO2sIel3qYvCFdLz3+E0wr/GQsfhmkX/g==",
+  "dgSpecHash": "HgI1HPPg/t/fB88KTSl+764TSmMqbAX40wXF+c0kzaFS2jWnDesOjURCe7WPpZaGi6vJDmMQYKB1DgAiYLYFGg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Tashreef\\Documents\\GitHub\\Drowsiness_Detector\\DrowsyDoc.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Tashreef\\.nuget\\packages\\dlibdotnet\\19.20.0.20200725\\dlibdotnet.19.20.0.20200725.nupkg.sha512",
     "C:\\Users\\Tashreef\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Tashreef\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\Tashreef\\.nuget\\packages\\opencvsharp4\\4.4.0.20200725\\opencvsharp4.4.4.0.20200725.nupkg.sha512",
