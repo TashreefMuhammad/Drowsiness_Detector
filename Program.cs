@@ -10,6 +10,7 @@
 
 
 using System;
+using System.IO;
 using System.Drawing;
 using System.Threading;
 using OpenCvSharp;
@@ -55,14 +56,16 @@ namespace DrowsyDoc
                 //{
                     capture.Read(frame);
                     image = BitmapConverter.ToBitmap(frame);
-                    Bitmap snapshot = new Bitmap(image);
-                    string inputFilePath = @"C:\Users\Tashreef\Desktop\any.png";
-                    string outputFilePath = @"C:\Users\Tashreef\Desktop\out.png";
+                Bitmap snapshot = new Bitmap(image);
+                string name = Environment.CurrentDirectory;
+                Console.WriteLine(name);
+                   string inputFilePath = name+@"\ImageFolder\any.png";
+                   string outputFilePath = name + @"\ImageFolder\out.png";
                 //snapshot.Save(string.Format(@"C:\Users\Tashreef\Desktop\{0}.png", Guid.NewGuid()), ImageFormat.Png);
                     snapshot.Save(inputFilePath);
 
                     using (var fd = Dlib.GetFrontalFaceDetector())
-                    using (var sp = ShapePredictor.Deserialize(@"D:\Sem_6_Fa_2019_(3.2)\CSE 3200\DrowsyDoc\DrowsyDoc\shape_predictor_68_face_landmarks.dat"))
+                    using (var sp = ShapePredictor.Deserialize(name+@"\shape_predictor_68_face_landmarks.dat"))
                     {
                         // load input image
                         var img = Dlib.LoadImage<RgbPixel>(inputFilePath);
@@ -83,7 +86,7 @@ namespace DrowsyDoc
                             }
                         }
                     // the rest of the code goes here....
-                        Dlib.SavePng(img, outputFilePath);
+                       Dlib.SavePng(img, outputFilePath);
                         //Dlib.SaveJpeg(img, "output.jpg");
                     }
                 //}

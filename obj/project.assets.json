@@ -432,19 +432,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tashreef\\.nuget\\packages\\": {}
+    "C:\\Users\\D_Maciver\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tashreef\\Documents\\GitHub\\Drowsiness_Detector\\DrowsyDoc.csproj",
+      "projectUniqueName": "D:\\CSE\\Gits\\Drowsiness_Detector\\DrowsyDoc.csproj",
       "projectName": "DrowsyDoc",
-      "projectPath": "C:\\Users\\Tashreef\\Documents\\GitHub\\Drowsiness_Detector\\DrowsyDoc.csproj",
-      "packagesPath": "C:\\Users\\Tashreef\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tashreef\\Documents\\GitHub\\Drowsiness_Detector\\obj\\",
+      "projectPath": "D:\\CSE\\Gits\\Drowsiness_Detector\\DrowsyDoc.csproj",
+      "packagesPath": "C:\\Users\\D_Maciver\\.nuget\\packages\\",
+      "outputPath": "D:\\CSE\\Gits\\Drowsiness_Detector\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Tashreef\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\D_Maciver\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
