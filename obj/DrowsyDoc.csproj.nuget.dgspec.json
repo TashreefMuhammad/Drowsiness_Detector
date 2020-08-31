@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CSE\\Gits\\Drowsiness_Detector\\DrowsyDoc.csproj": {}
+    "C:\\Users\\Tashreef\\Documents\\GitHub\\Drowsiness_Detector\\DrowsyDoc.csproj": {}
   },
   "projects": {
-    "D:\\CSE\\Gits\\Drowsiness_Detector\\DrowsyDoc.csproj": {
+    "C:\\Users\\Tashreef\\Documents\\GitHub\\Drowsiness_Detector\\DrowsyDoc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CSE\\Gits\\Drowsiness_Detector\\DrowsyDoc.csproj",
+        "projectUniqueName": "C:\\Users\\Tashreef\\Documents\\GitHub\\Drowsiness_Detector\\DrowsyDoc.csproj",
         "projectName": "DrowsyDoc",
-        "projectPath": "D:\\CSE\\Gits\\Drowsiness_Detector\\DrowsyDoc.csproj",
-        "packagesPath": "C:\\Users\\D_Maciver\\.nuget\\packages\\",
-        "outputPath": "D:\\CSE\\Gits\\Drowsiness_Detector\\obj\\",
+        "projectPath": "C:\\Users\\Tashreef\\Documents\\GitHub\\Drowsiness_Detector\\DrowsyDoc.csproj",
+        "packagesPath": "C:\\Users\\Tashreef\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tashreef\\Documents\\GitHub\\Drowsiness_Detector\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\D_Maciver\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tashreef\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,6 +45,10 @@
             "OpenCvSharp4.Windows": {
               "target": "Package",
               "version": "[4.4.0.20200725, )"
+            },
+            "PInvoke.Kernel32": {
+              "target": "Package",
+              "version": "[0.6.49, )"
             }
           },
           "imports": [

@@ -160,6 +160,27 @@
           "OpenCvSharp4.runtime.win": "4.4.0.20200725"
         }
       },
+      "PInvoke.Kernel32/0.6.49": {
+        "type": "package",
+        "dependencies": {
+          "PInvoke.Windows.Core": "0.6.49"
+        },
+        "compile": {
+          "lib/netstandard2.0/PInvoke.Kernel32.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PInvoke.Kernel32.dll": {}
+        }
+      },
+      "PInvoke.Windows.Core/0.6.49": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/PInvoke.Windows.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PInvoke.Windows.Core.dll": {}
+        }
+      },
       "System.Drawing.Common/4.7.0": {
         "type": "package",
         "dependencies": {
@@ -355,6 +376,47 @@
         "opencvsharp4.windows.nuspec"
       ]
     },
+    "PInvoke.Kernel32/0.6.49": {
+      "sha512": "i/vtu2cbbo0kpYt37PsOvpXk36kqF6Wr1CJOY/aQgQVqif6bqUFoYP57Xh/cJQx6YI3UrakRT3+fo1Wp1df5rg==",
+      "type": "package",
+      "path": "pinvoke.kernel32/0.6.49",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/PInvoke.Kernel32.dll",
+        "lib/net20/PInvoke.Kernel32.xml",
+        "lib/net45/PInvoke.Kernel32.dll",
+        "lib/net45/PInvoke.Kernel32.xml",
+        "lib/netstandard1.1/PInvoke.Kernel32.dll",
+        "lib/netstandard1.1/PInvoke.Kernel32.xml",
+        "lib/netstandard1.3/PInvoke.Kernel32.dll",
+        "lib/netstandard1.3/PInvoke.Kernel32.xml",
+        "lib/netstandard2.0/PInvoke.Kernel32.dll",
+        "lib/netstandard2.0/PInvoke.Kernel32.xml",
+        "lib/uap10.0/PInvoke.Kernel32.dll",
+        "lib/uap10.0/PInvoke.Kernel32.pri",
+        "lib/uap10.0/PInvoke.Kernel32.xml",
+        "pinvoke.kernel32.0.6.49.nupkg.sha512",
+        "pinvoke.kernel32.nuspec"
+      ]
+    },
+    "PInvoke.Windows.Core/0.6.49": {
+      "sha512": "xbkh8/lhmM47IQypXCua94atXHKZ2S3dAQzT1+dlqnFiXPh2fX5eOqbUk+vt3T6pocaJr1QOd8dJwqWN4lhpVQ==",
+      "type": "package",
+      "path": "pinvoke.windows.core/0.6.49",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/PInvoke.Windows.Core.dll",
+        "lib/net20/PInvoke.Windows.Core.xml",
+        "lib/netstandard1.1/PInvoke.Windows.Core.dll",
+        "lib/netstandard1.1/PInvoke.Windows.Core.xml",
+        "lib/netstandard2.0/PInvoke.Windows.Core.dll",
+        "lib/netstandard2.0/PInvoke.Windows.Core.xml",
+        "pinvoke.windows.core.0.6.49.nupkg.sha512",
+        "pinvoke.windows.core.nuspec"
+      ]
+    },
     "System.Drawing.Common/4.7.0": {
       "sha512": "v+XbyYHaZjDfn0ENmJEV1VYLgGgCTx1gnfOBcppowbpOAriglYgGCvFCPr2EEZyBvXlpxbEsTwkOlInl107ahA==",
       "type": "package",
@@ -428,23 +490,24 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "DlibDotNet >= 19.20.0.20200725",
-      "OpenCvSharp4.Windows >= 4.4.0.20200725"
+      "OpenCvSharp4.Windows >= 4.4.0.20200725",
+      "PInvoke.Kernel32 >= 0.6.49"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\D_Maciver\\.nuget\\packages\\": {}
+    "C:\\Users\\Tashreef\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CSE\\Gits\\Drowsiness_Detector\\DrowsyDoc.csproj",
+      "projectUniqueName": "C:\\Users\\Tashreef\\Documents\\GitHub\\Drowsiness_Detector\\DrowsyDoc.csproj",
       "projectName": "DrowsyDoc",
-      "projectPath": "D:\\CSE\\Gits\\Drowsiness_Detector\\DrowsyDoc.csproj",
-      "packagesPath": "C:\\Users\\D_Maciver\\.nuget\\packages\\",
-      "outputPath": "D:\\CSE\\Gits\\Drowsiness_Detector\\obj\\",
+      "projectPath": "C:\\Users\\Tashreef\\Documents\\GitHub\\Drowsiness_Detector\\DrowsyDoc.csproj",
+      "packagesPath": "C:\\Users\\Tashreef\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Tashreef\\Documents\\GitHub\\Drowsiness_Detector\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\D_Maciver\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Tashreef\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -475,6 +538,10 @@
           "OpenCvSharp4.Windows": {
             "target": "Package",
             "version": "[4.4.0.20200725, )"
+          },
+          "PInvoke.Kernel32": {
+            "target": "Package",
+            "version": "[0.6.49, )"
           }
         },
         "imports": [

@@ -84,10 +84,8 @@ C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\bin\Debug\netcoreapp3.1\r
 C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\opencv_videoio_ffmpeg440.dll
 C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\obj\Debug\netcoreapp3.1\DrowsyDoc.csprojAssemblyReference.cache
 C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\obj\Debug\netcoreapp3.1\DrowsyDoc.AssemblyInfoInputs.cache
 C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\obj\Debug\netcoreapp3.1\DrowsyDoc.AssemblyInfo.cs
-C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\obj\Debug\netcoreapp3.1\DrowsyDoc.csproj.CoreCompileInputs.cache
 C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\obj\Debug\netcoreapp3.1\DrowsyDoc.csproj.CopyComplete
 C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\obj\Debug\netcoreapp3.1\DrowsyDoc.dll
 C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\obj\Debug\netcoreapp3.1\DrowsyDoc.pdb
@@ -139,3 +137,7 @@ D:\CSE\Gits\Drowsiness_Detector\bin\Debug\netcoreapp3.1\DrowsyDoc.runtimeconfig.
 D:\CSE\Gits\Drowsiness_Detector\bin\Debug\netcoreapp3.1\DrowsyDoc.dll
 D:\CSE\Gits\Drowsiness_Detector\bin\Debug\netcoreapp3.1\DrowsyDoc.pdb
 D:\CSE\Gits\Drowsiness_Detector\obj\Debug\netcoreapp3.1\DrowsyDoc.genruntimeconfig.cache
+C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\bin\Debug\netcoreapp3.1\PInvoke.Kernel32.dll
+C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\bin\Debug\netcoreapp3.1\PInvoke.Windows.Core.dll
+C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\obj\Debug\netcoreapp3.1\DrowsyDoc.csproj.CoreCompileInputs.cache
+C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\obj\Debug\netcoreapp3.1\DrowsyDoc.csprojAssemblyReference.cache

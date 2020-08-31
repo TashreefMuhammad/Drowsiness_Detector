@@ -9,7 +9,8 @@
       "DrowsyDoc/1.0.0": {
         "dependencies": {
           "DlibDotNet": "19.20.0.20200725",
-          "OpenCvSharp4.Windows": "4.4.0.20200725"
+          "OpenCvSharp4.Windows": "4.4.0.20200725",
+          "PInvoke.Kernel32": "0.6.49"
         },
         "runtime": {
           "DrowsyDoc.dll": {}
@@ -180,6 +181,25 @@
           "OpenCvSharp4.runtime.win": "4.4.0.20200725"
         }
       },
+      "PInvoke.Kernel32/0.6.49": {
+        "dependencies": {
+          "PInvoke.Windows.Core": "0.6.49"
+        },
+        "runtime": {
+          "lib/netstandard2.0/PInvoke.Kernel32.dll": {
+            "assemblyVersion": "0.6.0.0",
+            "fileVersion": "0.6.49.2021"
+          }
+        }
+      },
+      "PInvoke.Windows.Core/0.6.49": {
+        "runtime": {
+          "lib/netstandard2.0/PInvoke.Windows.Core.dll": {
+            "assemblyVersion": "0.6.0.0",
+            "fileVersion": "0.6.49.2021"
+          }
+        }
+      },
       "System.Drawing.Common/4.7.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
@@ -263,6 +283,20 @@
       "sha512": "sha512-xpclWSzydJ8WLlsUMJE8vwNi9YjiNnCyDCeCYkaoGMcHAypbj1QFTprEFSYsBCq6yVI2Okj0+q1WzPnr/vx4rg==",
       "path": "opencvsharp4.windows/4.4.0.20200725",
       "hashPath": "opencvsharp4.windows.4.4.0.20200725.nupkg.sha512"
+    },
+    "PInvoke.Kernel32/0.6.49": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i/vtu2cbbo0kpYt37PsOvpXk36kqF6Wr1CJOY/aQgQVqif6bqUFoYP57Xh/cJQx6YI3UrakRT3+fo1Wp1df5rg==",
+      "path": "pinvoke.kernel32/0.6.49",
+      "hashPath": "pinvoke.kernel32.0.6.49.nupkg.sha512"
+    },
+    "PInvoke.Windows.Core/0.6.49": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xbkh8/lhmM47IQypXCua94atXHKZ2S3dAQzT1+dlqnFiXPh2fX5eOqbUk+vt3T6pocaJr1QOd8dJwqWN4lhpVQ==",
+      "path": "pinvoke.windows.core/0.6.49",
+      "hashPath": "pinvoke.windows.core.0.6.49.nupkg.sha512"
     },
     "System.Drawing.Common/4.7.0": {
       "type": "package",
