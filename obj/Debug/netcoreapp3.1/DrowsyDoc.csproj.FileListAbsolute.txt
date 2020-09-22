@@ -141,3 +141,5 @@ C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\bin\Debug\netcoreapp3.1\P
 C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\bin\Debug\netcoreapp3.1\PInvoke.Windows.Core.dll
 C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\obj\Debug\netcoreapp3.1\DrowsyDoc.csproj.CoreCompileInputs.cache
 C:\Users\Tashreef\Documents\GitHub\Drowsiness_Detector\obj\Debug\netcoreapp3.1\DrowsyDoc.csprojAssemblyReference.cache
+D:\CSE\Gits\Drowsiness_Detector\bin\Debug\netcoreapp3.1\PInvoke.Kernel32.dll
+D:\CSE\Gits\Drowsiness_Detector\bin\Debug\netcoreapp3.1\PInvoke.Windows.Core.dll
