@@ -8,6 +8,8 @@
  * https://www.codeproject.com/Articles/722569/Video-Capture-using-OpenCV-with-Csharp
  * http://emgu.com/wiki/index.php/Download_And_Installation
  * https://ourcodeworld.com/articles/read/761/how-to-take-snapshots-with-the-web-camera-with-c-sharp-using-the-opencvsharp-library-in-winforms
+ * https://github.com/takuya-takeuchi/DlibDotNet/blob/master/examples/FaceLandmarkDetection/Program.cs
+ * https://stackoverflow.com/questions/39793680/how-to-get-points-coordinate-position-in-the-face-landmark-detection-program-of
  */
 
 

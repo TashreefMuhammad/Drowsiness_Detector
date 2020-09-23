@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using System.Threading;
 using DlibDotNet;
 using DlibDotNet.Extensions;
@@ -32,24 +33,37 @@ namespace DrowsyDoc
 
                         // find all faces in the image
                         var faces = fd.Operator(img);
+                        double[,] location = new double[69, 2];
+
                         foreach (var face in faces)
                         {
                             // find the landmark points for this face
                             var shape = sp.Detect(img, face);
 
+                            Console.WriteLine(shape.ToString());
                             // draw the landmark points on the image
                             //for (var j = 0; j < shape.Parts; j++)
                             for(var j=36; j<=47; j++)
                             {
                                 var point = shape.GetPart((uint)j);
                                 var rect = new DlibDotNet.Rectangle(point);
+                                
                                 if (j >= 36 && j <= 41)
+                                {
+                                    location[j, 0] = shape.GetPart(0).X;
+                                    location[j, 1] = shape.GetPart(1).Y;
                                     Dlib.DrawRectangle(img, rect, color: new RgbPixel(255, 0, 0), thickness: 3);
+                                }
                                 else if (j >= 42 && j <= 47)
+                                {
+                                    location[j, 0] = shape.GetPart(0).X;
+                                    location[j, 1] = shape.GetPart(1).Y;
                                     Dlib.DrawRectangle(img, rect, color: new RgbPixel(0, 255, 0), thickness: 3);
+                                }
                                 //else
                                 //    Dlib.DrawRectangle(img, rect, color: new RgbPixel(255, 255, 0), thickness: 4);
                             }
+                            Console.WriteLine(eye_aspect_ratio(location));
                         }
                         // the rest of the code goes here....
                         Dlib.SavePng(img, name + @"\detectedImage\marked" + i + ".png");
@@ -68,6 +82,22 @@ namespace DrowsyDoc
                     Console.WriteLine("Detect Landmarks");
                 }
             }
+        }
+
+        private double eye_aspect_ratio(double [,] location)
+        {
+            var disA = Math.Sqrt((location[36, 0] - location[39, 0]) * (location[36, 0] - location[39, 0]) + (location[36, 1] - location[39, 1]) * (location[36, 1] - location[39, 1]));
+            var disB = Math.Sqrt((location[37, 0] - location[41, 0]) * (location[37, 0] - location[41, 0]) + (location[37, 1] - location[41, 1]) * (location[37, 1] - location[41, 1]));
+            var disC = Math.Sqrt((location[38, 0] - location[40, 0]) * (location[38, 0] - location[40, 0]) + (location[38, 1] - location[40, 1]) * (location[38, 1] - location[40, 1]));
+            var avg_1 = (disB + disC) / (2.00 * disA);
+
+            var disD = Math.Sqrt((location[42, 0] - location[45, 0]) * (location[42, 0] - location[45, 0]) + (location[42, 1] - location[45, 1]) * (location[42, 1] - location[45, 1]));
+            var disE = Math.Sqrt((location[43, 0] - location[47, 0]) * (location[43, 0] - location[47, 0]) + (location[43, 1] - location[47, 1]) * (location[43, 1] - location[47, 1]));
+            var disF = Math.Sqrt((location[44, 0] - location[46, 0]) * (location[44, 0] - location[46, 0]) + (location[44, 1] - location[46, 1]) * (location[44, 1] - location[46, 1]));
+            var avg_2 = (disE + disF) / (2.00 * disD);
+
+            return (avg_1 + avg_2) / 2.00;
+            return 0;
         }
         
     }
