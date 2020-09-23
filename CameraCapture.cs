@@ -3,11 +3,6 @@ using System.Drawing;
 using System.Threading;
 using OpenCvSharp;
 using OpenCvSharp.Extensions;
-using DlibDotNet;
-using DlibDotNet.Extensions;
-using Dlib = DlibDotNet.Dlib;
-using System.Runtime.InteropServices;
-using System.IO;
 
 namespace DrowsyDoc
 {
@@ -46,15 +41,24 @@ namespace DrowsyDoc
             if (capture.IsOpened())
             {
                 string name = Environment.CurrentDirectory;
-                string inputFilePath = name + @"\ImageFolder\any.png";
+                int i = 0;
+
                 while (isCameraRunning)
                 {
+                    i %= 100;
                     capture.Read(frame);
                     image = BitmapConverter.ToBitmap(frame);
                     Bitmap snapshot = new Bitmap(image);
                     //snapshot.Save(string.Format(@"C:\Users\Tashreef\Desktop\{0}.png", Guid.NewGuid()), ImageFormat.Png);
-                    snapshot.Save(inputFilePath);
+                    snapshot.Save(name + @"\rawImage\raw" + i + @".png");
+                    ++i;
+                    Thread t = Thread.CurrentThread;
+                    //Console.SetCursorPosition(0, 0);
+                    Console.WriteLine("Thread {0} going to sleep", t.Name);
+                    Thread.Sleep(10000);
+                    Console.WriteLine("Thread {0} finished sleep", t.Name);
                 }
+                
             }
         }
         

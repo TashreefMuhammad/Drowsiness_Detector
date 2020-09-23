@@ -1,13 +1,7 @@
 ﻿using System;
-using System.Drawing;
-using System.Threading;
-using OpenCvSharp;
-using OpenCvSharp.Extensions;
 using DlibDotNet;
 using DlibDotNet.Extensions;
 using Dlib = DlibDotNet.Dlib;
-using System.Runtime.InteropServices;
-using System.IO;
 
 
 namespace DrowsyDoc
@@ -17,19 +11,18 @@ namespace DrowsyDoc
         public void detect_landmark()
         {
             string name = Environment.CurrentDirectory;
-            Console.WriteLine(name);
-            string inputFilePath = name + @"\ImageFolder\any.png";
-            string outputFilePath = name + @"\ImageFolder\out.png";
-            string path = outputFilePath;
-            try
+            
+            int i = 0;
+            while (true)
             {
-                while (true)
+                i %= 100;
+                try
                 {
                     using (var fd = Dlib.GetFrontalFaceDetector())
                     using (var sp = ShapePredictor.Deserialize(name + @"\shape_predictor_68_face_landmarks.dat"))
                     {
                         // load input image
-                        var img = Dlib.LoadImage<RgbPixel>(inputFilePath);
+                        var img = Dlib.LoadImage<RgbPixel>(name + @"\rawImage\raw" + + i + ".png");
 
                         // find all faces in the image
                         var faces = fd.Operator(img);
@@ -39,27 +32,29 @@ namespace DrowsyDoc
                             var shape = sp.Detect(img, face);
 
                             // draw the landmark points on the image
-                            for (var i = 0; i < shape.Parts; i++)
+                            for (var j = 0; j < shape.Parts; j++)
                             {
-                                var point = shape.GetPart((uint)i);
+                                var point = shape.GetPart((uint)j);
                                 var rect = new DlibDotNet.Rectangle(point);
-                                if (i >= 36 && i <= 41)
+                                if (j >= 36 && j <= 41)
                                     Dlib.DrawRectangle(img, rect, color: new RgbPixel(255, 0, 0), thickness: 10);
-                                else if (i >= 42 && i <= 47)
+                                else if (j >= 42 && j <= 47)
                                     Dlib.DrawRectangle(img, rect, color: new RgbPixel(0, 255, 0), thickness: 10);
                                 else
                                     Dlib.DrawRectangle(img, rect, color: new RgbPixel(255, 255, 0), thickness: 4);
                             }
                         }
                         // the rest of the code goes here....
-                        Dlib.SavePng(img, outputFilePath);
+                        Dlib.SavePng(img, name + @"\detectedImage\marked" + i + ".png");
                         //Dlib.SaveJpeg(img, "output.jpg");
                     }
-
+                    ++i;
                 }
-            }catch(Exception e)
-            {
-                Console.WriteLine(e);
+                catch (Exception e)
+                {
+                    //Console.WriteLine(e);
+                    Console.WriteLine("Detect Landmarks");
+                }
             }
         }
         

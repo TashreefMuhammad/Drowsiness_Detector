@@ -1,11 +1,5 @@
 ﻿using System;
 using System.Drawing;
-using System.Threading;
-using OpenCvSharp;
-using OpenCvSharp.Extensions;
-using DlibDotNet;
-using DlibDotNet.Extensions;
-using Dlib = DlibDotNet.Dlib;
 using System.Runtime.InteropServices;
 using System.IO;
 
@@ -61,9 +55,8 @@ namespace DrowsyDoc
         public void view_image()
         {
             string name = Environment.CurrentDirectory;
-            string inputFilePath = name + @"\ImageFolder\any.png";
-            string outputFilePath = name + @"\ImageFolder\out.png";
-            string path = outputFilePath;
+
+            int i = 0;
 
             System.Drawing.Point location = new System.Drawing.Point(5, 5);
             System.Drawing.Size imageSize = new System.Drawing.Size(20, 10); // desired image size in characters
@@ -79,31 +72,38 @@ namespace DrowsyDoc
 
             //string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonPictures), @"Sample Pictures\tulips.jpg");
 
-            Console.WriteLine(DateTime.Now.ToString("HH:mm:ss tt"));
-            try
+            //Console.WriteLine(DateTime.Now.ToString("HH:mm:ss tt"));
+            while (true)
             {
-                using (Graphics g = Graphics.FromHwnd(GetConsoleWindow()))
+                try
                 {
-                    using (Image image = Image.FromFile(path))
+                    i %= 100;
+                    using (Graphics g = Graphics.FromHwnd(GetConsoleWindow()))
                     {
-                        System.Drawing.Size fontSize = GetConsoleFontSize();
+                        using (Image image = Image.FromFile(name + @"\detectedImage\marked" + i + ".png"))
+                        {
+                            System.Drawing.Size fontSize = GetConsoleFontSize();
 
-                        // translating the character positions to pixels
-                        System.Drawing.Rectangle imageRect = new System.Drawing.Rectangle(
-                            location.X * fontSize.Width,
-                            location.Y * fontSize.Height,
-                            imageSize.Width * fontSize.Width,
-                            imageSize.Height * fontSize.Height);
-                        g.DrawImage(image, imageRect);
+                            // translating the character positions to pixels
+                            System.Drawing.Rectangle imageRect = new System.Drawing.Rectangle(
+                                location.X * fontSize.Width,
+                                location.Y * fontSize.Height,
+                                imageSize.Width * fontSize.Width,
+                                imageSize.Height * fontSize.Height);
+                            g.DrawImage(image, imageRect);
+                        }
                     }
+                    ++i;
                 }
-            }catch(Exception e)
-            {
-                Console.WriteLine(e);
+                catch (Exception e)
+                {
+                    //Console.WriteLine(e);
+                    //Console.WriteLine("ImageShow");
+                }
             }
-            Console.WriteLine(DateTime.Now.ToString("HH:mm:ss tt"));
+            //Console.WriteLine(DateTime.Now.ToString("HH:mm:ss tt"));
             //System.Threading.Thread.Sleep(3000);
-            Console.WriteLine("Cleared");
+            //Console.WriteLine("Cleared");
         }
        private static System.Drawing.Size GetConsoleFontSize()
         {

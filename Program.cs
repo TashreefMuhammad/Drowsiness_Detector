@@ -12,15 +12,7 @@
 
 
 using System;
-using System.Drawing;
 using System.Threading;
-using OpenCvSharp;
-using OpenCvSharp.Extensions;
-using DlibDotNet;
-using DlibDotNet.Extensions;
-using Dlib = DlibDotNet.Dlib;
-using System.Runtime.InteropServices;
-using System.IO;
 
 namespace DrowsyDoc
 {
@@ -29,21 +21,22 @@ namespace DrowsyDoc
         
         static void Main(string[] args)
         {
-            Console.WriteLine("Taking Picture");
             CameraCapture cp = new CameraCapture();
             Detect_Landmarks dl = new Detect_Landmarks();
             ImageShow ishow = new ImageShow();
-            Console.WriteLine("Picture Taken");
 
             Thread camera = new Thread(cp.CaptureCamera);
+            camera.Name = "Take Picture Thread";
             Thread d_land = new Thread(dl.detect_landmark);
+            d_land.Name = "LandMark Deetection Thread";
             Thread i_show = new Thread(ishow.view_image);
+            i_show.Name = "Console Printing Thread";
 
             camera.Start();
 
-            Thread.Sleep(500);
+            //Thread.Sleep(500);
             d_land.Start();
-            Thread.Sleep(500);
+            //Thread.Sleep(500);
             i_show.Start();
         }
     }
