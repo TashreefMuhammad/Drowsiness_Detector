@@ -1,19 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "YKpgLaMXSi3WYlH468pDSAwdeLVKi1svDMcbzlbwQ0kTTfOJC2+r8Az9Og7T5nZHOZxoXJTrWpG+TBr0BzonWw==",
+  "dgSpecHash": "W5bvBxvyxe/jlZRGFKJGkIHSgqCKTT4t5TuShJa0oZQOnT9S1TkH+PwwE4UV3D35WykyIaZrRnpMnHamvwBkdA==",
   "success": true,
-  "projectFilePath": "D:\\Sem_6_Fa_2019_(3.2)\\CSE 3200\\GitHub\\Drowsiness_Detector\\DrowsyDoc.csproj",
+  "projectFilePath": "D:\\CSE\\Gits\\Drowsiness_Detector\\DrowsyDoc.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Tashreef\\.nuget\\packages\\dlibdotnet\\19.20.0.20200725\\dlibdotnet.19.20.0.20200725.nupkg.sha512",
-    "C:\\Users\\Tashreef\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
-    "C:\\Users\\Tashreef\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
-    "C:\\Users\\Tashreef\\.nuget\\packages\\opencvsharp4\\4.4.0.20200725\\opencvsharp4.4.4.0.20200725.nupkg.sha512",
-    "C:\\Users\\Tashreef\\.nuget\\packages\\opencvsharp4.runtime.win\\4.4.0.20200725\\opencvsharp4.runtime.win.4.4.0.20200725.nupkg.sha512",
-    "C:\\Users\\Tashreef\\.nuget\\packages\\opencvsharp4.windows\\4.4.0.20200725\\opencvsharp4.windows.4.4.0.20200725.nupkg.sha512",
-    "C:\\Users\\Tashreef\\.nuget\\packages\\pinvoke.kernel32\\0.6.49\\pinvoke.kernel32.0.6.49.nupkg.sha512",
-    "C:\\Users\\Tashreef\\.nuget\\packages\\pinvoke.windows.core\\0.6.49\\pinvoke.windows.core.0.6.49.nupkg.sha512",
-    "C:\\Users\\Tashreef\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
-    "C:\\Users\\Tashreef\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512"
+    "C:\\Users\\D_Maciver\\.nuget\\packages\\dlibdotnet\\19.20.0.20200725\\dlibdotnet.19.20.0.20200725.nupkg.sha512",
+    "C:\\Users\\D_Maciver\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\D_Maciver\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\D_Maciver\\.nuget\\packages\\opencvsharp4\\4.4.0.20200725\\opencvsharp4.4.4.0.20200725.nupkg.sha512",
+    "C:\\Users\\D_Maciver\\.nuget\\packages\\opencvsharp4.runtime.win\\4.4.0.20200725\\opencvsharp4.runtime.win.4.4.0.20200725.nupkg.sha512",
+    "C:\\Users\\D_Maciver\\.nuget\\packages\\opencvsharp4.windows\\4.4.0.20200725\\opencvsharp4.windows.4.4.0.20200725.nupkg.sha512",
+    "C:\\Users\\D_Maciver\\.nuget\\packages\\pinvoke.kernel32\\0.6.49\\pinvoke.kernel32.0.6.49.nupkg.sha512",
+    "C:\\Users\\D_Maciver\\.nuget\\packages\\pinvoke.windows.core\\0.6.49\\pinvoke.windows.core.0.6.49.nupkg.sha512",
+    "C:\\Users\\D_Maciver\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
+    "C:\\Users\\D_Maciver\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512"
   ],
   "logs": []
 }

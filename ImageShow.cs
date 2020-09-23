@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Runtime.InteropServices;
 using System.IO;
-
+using System.Threading;
 
 namespace DrowsyDoc
 {
@@ -73,6 +73,11 @@ namespace DrowsyDoc
             //string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonPictures), @"Sample Pictures\tulips.jpg");
 
             //Console.WriteLine(DateTime.Now.ToString("HH:mm:ss tt"));
+            
+            //Console.SetCursorPosition(0, 0);
+            //Console.WriteLine("Thread {0} going to sleep", t.Name);
+            //Thread.Sleep(2000);
+            //Console.WriteLine("Thread {0} finished sleep", t.Name);
             while (true)
             {
                 try
@@ -97,6 +102,8 @@ namespace DrowsyDoc
                 }
                 catch (Exception e)
                 {
+                    Thread t = Thread.CurrentThread;
+                    Thread.Sleep(1300);
                     //Console.WriteLine(e);
                     //Console.WriteLine("ImageShow");
                 }

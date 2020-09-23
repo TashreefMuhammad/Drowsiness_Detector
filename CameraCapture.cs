@@ -54,9 +54,9 @@ namespace DrowsyDoc
                     ++i;
                     Thread t = Thread.CurrentThread;
                     //Console.SetCursorPosition(0, 0);
-                    Console.WriteLine("Thread {0} going to sleep", t.Name);
-                    Thread.Sleep(10000);
-                    Console.WriteLine("Thread {0} finished sleep", t.Name);
+                    //Console.WriteLine("Thread {0} going to sleep", t.Name);
+                    Thread.Sleep(1300);
+                    //Console.WriteLine("Thread {0} finished sleep", t.Name);
                 }
                 
             }
