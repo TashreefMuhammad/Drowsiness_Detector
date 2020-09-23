@@ -43,22 +43,36 @@ namespace DrowsyDoc
                             Console.WriteLine(shape.ToString());
                             // draw the landmark points on the image
                             //for (var j = 0; j < shape.Parts; j++)
-                            for(var j=36; j<=47; j++)
+
+                            Dlib.DrawLine(img, shape.GetPart(36), shape.GetPart(37), new RgbPixel(255, 0, 0));
+                            Dlib.DrawLine(img, shape.GetPart(37), shape.GetPart(38), new RgbPixel(255, 0, 0));
+                            Dlib.DrawLine(img, shape.GetPart(38), shape.GetPart(39), new RgbPixel(255, 0, 0));
+                            Dlib.DrawLine(img, shape.GetPart(39), shape.GetPart(40), new RgbPixel(255, 0, 0));
+                            Dlib.DrawLine(img, shape.GetPart(40), shape.GetPart(41), new RgbPixel(255, 0, 0));
+                            Dlib.DrawLine(img, shape.GetPart(41), shape.GetPart(36), new RgbPixel(255, 0, 0));
+
+                            Dlib.DrawLine(img, shape.GetPart(42), shape.GetPart(43), new RgbPixel(0, 255, 0));
+                            Dlib.DrawLine(img, shape.GetPart(43), shape.GetPart(44), new RgbPixel(0, 255, 0));
+                            Dlib.DrawLine(img, shape.GetPart(44), shape.GetPart(45), new RgbPixel(0, 255, 0));
+                            Dlib.DrawLine(img, shape.GetPart(45), shape.GetPart(46), new RgbPixel(0, 255, 0));
+                            Dlib.DrawLine(img, shape.GetPart(46), shape.GetPart(47), new RgbPixel(0, 255, 0));
+                            Dlib.DrawLine(img, shape.GetPart(47), shape.GetPart(42), new RgbPixel(0, 255, 0));
+                            for (var j=36; j<=47; j++)
                             {
                                 var point = shape.GetPart((uint)j);
                                 var rect = new DlibDotNet.Rectangle(point);
                                 
                                 if (j >= 36 && j <= 41)
                                 {
-                                    location[j, 0] = shape.GetPart(0).X;
-                                    location[j, 1] = shape.GetPart(1).Y;
-                                    Dlib.DrawRectangle(img, rect, color: new RgbPixel(255, 0, 0), thickness: 3);
+                                    location[j, 0] = shape.GetPart((uint)j).X;
+                                    location[j, 1] = shape.GetPart((uint)j).Y;
+                                    //Dlib.DrawRectangle(img, rect, color: new RgbPixel(255, 0, 0), thickness: 3);
                                 }
                                 else if (j >= 42 && j <= 47)
                                 {
-                                    location[j, 0] = shape.GetPart(0).X;
-                                    location[j, 1] = shape.GetPart(1).Y;
-                                    Dlib.DrawRectangle(img, rect, color: new RgbPixel(0, 255, 0), thickness: 3);
+                                    location[j, 0] = shape.GetPart((uint)j).X;
+                                    location[j, 1] = shape.GetPart((uint)j).Y;
+                                    //Dlib.DrawRectangle(img, rect, color: new RgbPixel(0, 255, 0), thickness: 3);
                                 }
                                 //else
                                 //    Dlib.DrawRectangle(img, rect, color: new RgbPixel(255, 255, 0), thickness: 4);
@@ -96,8 +110,8 @@ namespace DrowsyDoc
             var disF = Math.Sqrt((location[44, 0] - location[46, 0]) * (location[44, 0] - location[46, 0]) + (location[44, 1] - location[46, 1]) * (location[44, 1] - location[46, 1]));
             var avg_2 = (disE + disF) / (2.00 * disD);
 
+            Console.WriteLine(location[36,0] + " " + location[36,1] + " " + location[39,0] + " " + location[39,1]);
             return (avg_1 + avg_2) / 2.00;
-            return 0;
         }
         
     }
