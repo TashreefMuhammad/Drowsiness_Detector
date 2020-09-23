@@ -39,7 +39,7 @@ namespace DrowsyDoc
             //Thread.Sleep(500);
             d_land.Start();
             //Thread.Sleep(500);
-            i_show.Start();
+            //i_show.Start();
         }
     }
 }

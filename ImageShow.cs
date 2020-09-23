@@ -70,14 +70,7 @@ namespace DrowsyDoc
             Console.SetCursorPosition(location.X + imageSize.Width, location.Y + imageSize.Height - 1);
             Console.WriteLine("<");
 
-            //string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonPictures), @"Sample Pictures\tulips.jpg");
-
-            //Console.WriteLine(DateTime.Now.ToString("HH:mm:ss tt"));
             
-            //Console.SetCursorPosition(0, 0);
-            //Console.WriteLine("Thread {0} going to sleep", t.Name);
-            //Thread.Sleep(2000);
-            //Console.WriteLine("Thread {0} finished sleep", t.Name);
             while (true)
             {
                 try
@@ -104,13 +97,9 @@ namespace DrowsyDoc
                 {
                     Thread t = Thread.CurrentThread;
                     Thread.Sleep(1300);
-                    //Console.WriteLine(e);
-                    //Console.WriteLine("ImageShow");
+                    
                 }
             }
-            //Console.WriteLine(DateTime.Now.ToString("HH:mm:ss tt"));
-            //System.Threading.Thread.Sleep(3000);
-            //Console.WriteLine("Cleared");
         }
        private static System.Drawing.Size GetConsoleFontSize()
         {
@@ -132,7 +121,6 @@ namespace DrowsyDoc
             {
                 throw new InvalidOperationException("Unable to get font information.");
             }
-
             return new System.Drawing.Size(cfi.dwFontSize.X, cfi.dwFontSize.Y);
         }
     }

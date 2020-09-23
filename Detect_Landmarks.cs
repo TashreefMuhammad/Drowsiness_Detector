@@ -16,10 +16,7 @@ namespace DrowsyDoc
             
             int i = 0;
             
-            //Console.SetCursorPosition(0, 0);
-            //Console.WriteLine("Thread {0} going to sleep", t.Name);
-            //Thread.Sleep(2000);
-           // Console.WriteLine("Thread {0} finished sleep", t.Name);
+           
             while (true)
             {
                 i %= 100;
@@ -28,21 +25,20 @@ namespace DrowsyDoc
                     using (var fd = Dlib.GetFrontalFaceDetector())
                     using (var sp = ShapePredictor.Deserialize(name + @"\shape_predictor_68_face_landmarks.dat"))
                     {
-                        // load input image
+
                         var img = Dlib.LoadImage<RgbPixel>(name + @"\rawImage\raw" + + i + ".png");
 
-                        // find all faces in the image
+
                         var faces = fd.Operator(img);
                         double[,] location = new double[69, 2];
 
                         foreach (var face in faces)
                         {
-                            // find the landmark points for this face
+
                             var shape = sp.Detect(img, face);
 
                             Console.WriteLine(shape.ToString());
-                            // draw the landmark points on the image
-                            //for (var j = 0; j < shape.Parts; j++)
+
 
                             Dlib.DrawLine(img, shape.GetPart(36), shape.GetPart(37), new RgbPixel(255, 0, 0));
                             Dlib.DrawLine(img, shape.GetPart(37), shape.GetPart(38), new RgbPixel(255, 0, 0));
@@ -66,34 +62,34 @@ namespace DrowsyDoc
                                 {
                                     location[j, 0] = shape.GetPart((uint)j).X;
                                     location[j, 1] = shape.GetPart((uint)j).Y;
-                                    //Dlib.DrawRectangle(img, rect, color: new RgbPixel(255, 0, 0), thickness: 3);
+                                    
                                 }
                                 else if (j >= 42 && j <= 47)
                                 {
                                     location[j, 0] = shape.GetPart((uint)j).X;
                                     location[j, 1] = shape.GetPart((uint)j).Y;
-                                    //Dlib.DrawRectangle(img, rect, color: new RgbPixel(0, 255, 0), thickness: 3);
+                                    
                                 }
-                                //else
-                                //    Dlib.DrawRectangle(img, rect, color: new RgbPixel(255, 255, 0), thickness: 4);
+                                
                             }
-                            Console.WriteLine(eye_aspect_ratio(location));
+                            if (eye_aspect_ratio(location) < .20)
+                            {
+                                Notify.Alarm();
+                            }
                         }
-                        // the rest of the code goes here....
+
                         Dlib.SavePng(img, name + @"\detectedImage\marked" + i + ".png");
-                        //Dlib.SaveJpeg(img, "output.jpg");
+
                     }
                     ++i;
                 }
                 catch (Exception e)
                 {
                     Thread t = Thread.CurrentThread;
-                    //Console.SetCursorPosition(0, 0);
-                    //Console.WriteLine("Thread {0} going to sleep", t.Name);
+
                     Thread.Sleep(1300);
-                    // Console.WriteLine("Thread {0} finished sleep", t.Name);
-                    //Console.WriteLine(e);
-                    Console.WriteLine("Detect Landmarks");
+
+                    Console.WriteLine("Detect Landmarks  ");
                 }
             }
         }

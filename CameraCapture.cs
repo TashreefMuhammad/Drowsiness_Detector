@@ -20,8 +20,7 @@ namespace DrowsyDoc
         // Declare required methods
         public void CaptureCamera()
         {
-            //camera = new Thread(new ThreadStart(CaptureCameraCallback));
-            //camera.Start();
+            
             try
             {
                 CaptureCameraCallback();
@@ -49,14 +48,13 @@ namespace DrowsyDoc
                     capture.Read(frame);
                     image = BitmapConverter.ToBitmap(frame);
                     Bitmap snapshot = new Bitmap(image);
-                    //snapshot.Save(string.Format(@"C:\Users\Tashreef\Desktop\{0}.png", Guid.NewGuid()), ImageFormat.Png);
+                    
                     snapshot.Save(name + @"\rawImage\raw" + i + @".png");
                     ++i;
                     Thread t = Thread.CurrentThread;
-                    //Console.SetCursorPosition(0, 0);
-                    //Console.WriteLine("Thread {0} going to sleep", t.Name);
-                    Thread.Sleep(1300);
-                    //Console.WriteLine("Thread {0} finished sleep", t.Name);
+                    
+                    Thread.Sleep(1500);
+                    
                 }
                 
             }
