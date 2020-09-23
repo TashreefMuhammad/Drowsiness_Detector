@@ -6,6 +6,7 @@ using System.Threading;
 
 namespace DrowsyDoc
 {
+    //Image Show Class To Show it in Console
     class ImageShow
     {
         [DllImport("kernel32.dll", SetLastError = true)]
@@ -51,7 +52,7 @@ namespace DrowsyDoc
         private const int OPEN_EXISTING = 3;
 
         
-
+        //Method Of Image Showing
         public void view_image()
         {
             string name = Environment.CurrentDirectory;

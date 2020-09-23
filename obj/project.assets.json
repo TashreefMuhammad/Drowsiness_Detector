@@ -181,6 +181,15 @@
           "lib/netstandard2.0/PInvoke.Windows.Core.dll": {}
         }
       },
+      "System.Device.Location.Portable/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/System.Device.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/System.Device.Portable.dll": {}
+        }
+      },
       "System.Drawing.Common/4.7.0": {
         "type": "package",
         "dependencies": {
@@ -417,6 +426,18 @@
         "pinvoke.windows.core.nuspec"
       ]
     },
+    "System.Device.Location.Portable/1.0.0": {
+      "sha512": "VttxozXEleYcK2NiMo7xKMhDCCJbKtjnxcWDmqu703DeceLTI/9jopfEblyZKL0DWHGyOYLEan06yk6Hcv2cXw==",
+      "type": "package",
+      "path": "system.device.location.portable/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/System.Device.Portable.dll",
+        "system.device.location.portable.1.0.0.nupkg.sha512",
+        "system.device.location.portable.nuspec"
+      ]
+    },
     "System.Drawing.Common/4.7.0": {
       "sha512": "v+XbyYHaZjDfn0ENmJEV1VYLgGgCTx1gnfOBcppowbpOAriglYgGCvFCPr2EEZyBvXlpxbEsTwkOlInl107ahA==",
       "type": "package",
@@ -491,7 +512,8 @@
     ".NETCoreApp,Version=v3.1": [
       "DlibDotNet >= 19.20.0.20200725",
       "OpenCvSharp4.Windows >= 4.4.0.20200725",
-      "PInvoke.Kernel32 >= 0.6.49"
+      "PInvoke.Kernel32 >= 0.6.49",
+      "System.Device.Location.Portable >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -542,6 +564,10 @@
           "PInvoke.Kernel32": {
             "target": "Package",
             "version": "[0.6.49, )"
+          },
+          "System.Device.Location.Portable": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           }
         },
         "imports": [
@@ -562,5 +588,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Device.Location.Portable 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Device.Location.Portable",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

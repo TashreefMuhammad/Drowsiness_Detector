@@ -49,6 +49,10 @@
             "PInvoke.Kernel32": {
               "target": "Package",
               "version": "[0.6.49, )"
+            },
+            "System.Device.Location.Portable": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             }
           },
           "imports": [

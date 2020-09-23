@@ -39,7 +39,7 @@ namespace DrowsyDoc
 
                             Console.WriteLine(shape.ToString());
 
-
+                            //Draing Lines On the Eyes' Co-ordinates
                             Dlib.DrawLine(img, shape.GetPart(36), shape.GetPart(37), new RgbPixel(255, 0, 0));
                             Dlib.DrawLine(img, shape.GetPart(37), shape.GetPart(38), new RgbPixel(255, 0, 0));
                             Dlib.DrawLine(img, shape.GetPart(38), shape.GetPart(39), new RgbPixel(255, 0, 0));
@@ -72,6 +72,7 @@ namespace DrowsyDoc
                                 }
                                 
                             }
+                            //Getting Eye Aspect Ratio And Beeping
                             if (eye_aspect_ratio(location) < .20)
                             {
                                 Notify.Alarm();
@@ -94,6 +95,7 @@ namespace DrowsyDoc
             }
         }
 
+        //Calculation of Eye Aspect Ratio
         private double eye_aspect_ratio(double [,] location)
         {
             var disA = Math.Sqrt((location[36, 0] - location[39, 0]) * (location[36, 0] - location[39, 0]) + (location[36, 1] - location[39, 1]) * (location[36, 1] - location[39, 1]));

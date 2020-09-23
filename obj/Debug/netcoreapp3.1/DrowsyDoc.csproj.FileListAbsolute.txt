@@ -130,7 +130,6 @@ D:\CSE\Gits\Drowsiness_Detector\obj\Debug\netcoreapp3.1\DrowsyDoc.AssemblyInfo.c
 D:\CSE\Gits\Drowsiness_Detector\obj\Debug\netcoreapp3.1\DrowsyDoc.csproj.CopyComplete
 D:\CSE\Gits\Drowsiness_Detector\obj\Debug\netcoreapp3.1\DrowsyDoc.dll
 D:\CSE\Gits\Drowsiness_Detector\obj\Debug\netcoreapp3.1\DrowsyDoc.pdb
-D:\CSE\Gits\Drowsiness_Detector\obj\Debug\netcoreapp3.1\DrowsyDoc.csproj.CoreCompileInputs.cache
 D:\CSE\Gits\Drowsiness_Detector\bin\Debug\netcoreapp3.1\DrowsyDoc.deps.json
 D:\CSE\Gits\Drowsiness_Detector\bin\Debug\netcoreapp3.1\DrowsyDoc.runtimeconfig.json
 D:\CSE\Gits\Drowsiness_Detector\bin\Debug\netcoreapp3.1\DrowsyDoc.runtimeconfig.dev.json
@@ -192,3 +191,5 @@ D:\Sem_6_Fa_2019_(3.2)\CSE 3200\GitHub\Drowsiness_Detector\obj\Debug\netcoreapp3
 D:\Sem_6_Fa_2019_(3.2)\CSE 3200\GitHub\Drowsiness_Detector\obj\Debug\netcoreapp3.1\DrowsyDoc.dll
 D:\Sem_6_Fa_2019_(3.2)\CSE 3200\GitHub\Drowsiness_Detector\obj\Debug\netcoreapp3.1\DrowsyDoc.pdb
 D:\Sem_6_Fa_2019_(3.2)\CSE 3200\GitHub\Drowsiness_Detector\obj\Debug\netcoreapp3.1\DrowsyDoc.genruntimeconfig.cache
+D:\CSE\Gits\Drowsiness_Detector\bin\Debug\netcoreapp3.1\System.Device.Portable.dll
+D:\CSE\Gits\Drowsiness_Detector\obj\Debug\netcoreapp3.1\DrowsyDoc.csproj.CoreCompileInputs.cache

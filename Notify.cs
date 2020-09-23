@@ -6,10 +6,11 @@ namespace DrowsyDoc
 {
     class Notify
     {
+        //Alarm Will Trigger While The User is Drowsy
         public static void Alarm()
         {
                 Console.WriteLine("Beeping");
-                Console.Beep(500,500);
+                Console.Beep(500,700);
         }
     }
 }

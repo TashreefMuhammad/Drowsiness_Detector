@@ -31,6 +31,7 @@ namespace DrowsyDoc
             }
         }
 
+        //Capturing Images Using The Device's Camera
         private static void CaptureCameraCallback()
         {
             capture = new VideoCapture(0);
