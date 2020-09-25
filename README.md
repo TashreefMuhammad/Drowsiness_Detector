@@ -5,11 +5,11 @@
 Though similar projects are quite available, most of them are in *Python* and other languages. Even while developing this project, we actually used references from those projects. But to our best of knowledge, this complete set of drowsiness detection using *.NET Core* was not available. So, we decided to try in implementing it. This file explains the project using following components:
 * [Building the Project](#building-the-project)
 * [Shallow Overview](#shallow-overview)
-    * [Program.cs](#program.cs)
-    * [CameraCapture.cs](#cameracapture.cs)
-    * [Detect_Landmarks.cs](#detect_landmark.cs)
-    * [ImageShow.cs](#imageshow.cs)
-    * [Notify.cs](#notify.cs)
+    * [Program.cs](#programcs)
+    * [CameraCapture.cs](#cameracapturecs)
+    * [Detect_Landmarks.cs](#detect_landmarkcs)
+    * [ImageShow.cs](#imageshowcs)
+    * [Notify.cs](#notifycs)
 * [Some Extra Tips](#some-extra-tips)
 * [References](#references)
 
@@ -78,7 +78,7 @@ The class handles the sound that is supposed to alert the listener. In other wor
 This is by size quite a big project. It also consumes a lot of requirements on the hardware side. Here are some suggestions regarding on how to use this project:
 *  Build the project. Then close `Visual Studio 2019`. Run the `EXE` file of the project. The performance will be better as Visual Studio will not be gobbling up some hardware parts. If the solution file is in `X` location, you should find the `EXE` file to execute after building in `X\bin\Debug\netcoreapp3.1\DrowsyDoc.exe`
 * A better processor will make the project act more and more smooth
-* From `Program.cs` you can commnt out the `i_show.start()` statement. As mentioned [earlier](#imageshow.cs) it will only help in understanding the work of facial landmark detection on the go. In complete scaled run, it is not that useful, but resource consuming. So the process could be commented out for better performance.
+* From `Program.cs` you can commnt out the `i_show.start()` statement. As mentioned [earlier](#imageshowcs) it will only help in understanding the work of facial landmark detection on the go. In complete scaled run, it is not that useful, but resource consuming. So the process could be commented out for better performance.
 
 ## References
 References from multiple websites and resources were used. Some of them can be enlisted as follows:
